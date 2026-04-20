@@ -1,0 +1,163 @@
+h1, h2, h3 {
+  text-align: center;
+}
+header img {
+    width: 200px; 
+    height: auto;  
+}
+
+
+p {
+    text-align: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND PRINCIPAL */
+body {
+  background: #0a0f1c;
+  color: #ffffff;
+  line-height: 1.6;
+  margin: 0 20px;
+}
+
+/* HEADER */
+header {
+  background: #0d1326;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #00c8ff;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: linear-gradient(90deg, #00c8ff, #007bff);
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #121933;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card img {
+  width: 100%;
+  height: 150px;      /* controla o tamanho */
+  object-fit: cover;  /* corta sem distorcer */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: contain;
+  background: #000;
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #00c8ff;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0d1326;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #888;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #00c8ff;
+}
+
+.social-links {
+  margin-bottom: 15px; /* Espaço entre o ícone e o texto de direitos reservados */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  transition: transform 0.3s ease;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  transform: scale(1.1); /* Dá um leve zoom quando passa o mouse */
+  color: #c13584; /* Muda levemente a cor no hover */
+}
+
+
+/* Cria um espaço entre a última seção hero e o footer */
+section.hero:last-of-type {
+    margin-bottom: 50px; /* Ajuste o número para aumentar ou diminuir o espaço */
+}
