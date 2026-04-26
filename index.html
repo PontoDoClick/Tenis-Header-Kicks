@@ -11,33 +11,27 @@
   gtag('config', 'AW-18031923005');
 </script>
 
-<!-- Event snippet for Compra conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
   gtag('event', 'conversion', {
-      'send_to': 'AW-18031923005/qbDfCK_Ay40cEL2epZZD',
-      'value': 1.0,
-      'currency': 'BRL',
-      // 'transaction_id': '',
-      'event_callback': callback
-      // 'new_customer': true /* calculate dynamically, populate with true/false */,
+    'send_to': 'AW-18031923005/qbDfCK_Ay40cEL2epZZD',
+    'value': 1.0,
+    'currency': 'BRL'
   });
+
+  // Aguarda 300ms antes de redirecionar
+  setTimeout(function() {
+    window.location.href = url;
+  }, 300);
+
   return false;
 }
 </script>
-
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tênis Header Kicks .DoClick</title>
   <link rel="icon" type="image/png" href="img/PONTO DO CLICK - LOGO COM TEXTURA.png">
-
 
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -52,81 +46,85 @@ function gtag_report_conversion(url) {
   <section class="hero">
     <h2>🔥 Tênis Header Kicks® Original Unissex</h2>
     <p>Dê um upgrade no seu visual sem precisar gastar uma fortuna. O Header Kicks® uniu o design das maiores tendências mundiais com materiais de alta resistência para criar o tênis perfeito para quem não abre mão de estilo e economia.</p>
-    <a class="btn" href="https://s.shopee.com.br/6VK5TP1QAF"
-   onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
-   rel="nofollow sponsored">Quero Comprar Agora Na Shopee 🔥</a>
+    
+    <a class="btn" href="#"
+       onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
+       rel="nofollow sponsored">
+       Quero Comprar Agora Na Shopee 🔥
+    </a>
   </section>
 
   <section class="section">
     <h2>O que você vai encontrar</h2>
     <div class="cards">
-        <a href="https://s.shopee.com.br/6VK5TP1QAF"
-   onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
-   rel="nofollow sponsored"
-   class="card-link">
+
+      <a href="#"
+         onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
+         rel="nofollow sponsored"
+         class="card-link">
         <div class="card">
-            <img src="img/01.jpeg" alt="Apps Fire Tv">
+            <img src="img/01.jpeg">
             <h3>Design Minimalista & Moderno</h3>
-            <p>Combina perfeitamente com calça jeans, bermuda ou roupas esportivas. Perfeito para qualquer ocasião.</p>
+            <p>Combina perfeitamente com calça jeans, bermuda ou roupas esportivas.</p>
         </div>
-        </a>
-      
+      </a>
 
-      <a href="https://s.shopee.com.br/6VK5TP1QAF"
-   onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
-   rel="nofollow sponsored"
-   class="card-link">
+      <a href="#"
+         onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
+         rel="nofollow sponsored"
+         class="card-link">
         <div class="card">
-            <img src="img/02.jpeg" alt="Fire Tv com Alexa">
+            <img src="img/02.jpeg">
             <h3>Conforto All-Day</h3>
-            <p>Palmilha macia e interna acolchoada que garantem conforto mesmo após horas de uso constante.</p>
+            <p>Palmilha macia e interna acolchoada para uso prolongado.</p>
         </div>
-        </a>
+      </a>
 
-      <a href="https://s.shopee.com.br/6VK5TP1QAF"
-   onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
-   rel="nofollow sponsored"
-   class="card-link">
+      <a href="#"
+         onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
+         rel="nofollow sponsored"
+         class="card-link">
         <div class="card">
-            <img src="img/03.jpeg" alt="Fire Tv">
+            <img src="img/03.jpeg">
             <h3>Material Respirável</h3>
-            <p>Tecnologia de tecido que permite a ventilação, evitando odores e mantendo os pés frescos.</p>
+            <p>Tecido ventilado que mantém os pés frescos e confortáveis.</p>
         </div>
-        </a>
+      </a>
+
     </div>
   </section>
 
-    <section class="hero">
+  <section class="hero">
     <h2>🚀 Por que vale a pena ter um Tênis Header Kicks?</h2>
-    <p>Estilo premium e conforto absoluto que seus pés merecem para o seu dia a dia por menos de R$ 90,00.</p>
-    
-
+    <p>Estilo premium e conforto absoluto para o dia a dia por menos de R$ 90,00.</p>
   </section>
 
   <section class="hero">
     <h2>Pronto para começar?</h2>
-    <p>Clique no botão abaixo, veja todos os detalhes do produto e aproveite o desconto.</p>
-    <a class="btn" href="https://s.shopee.com.br/6VK5TP1QAF"
-   onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
-   rel="nofollow sponsored">VER CORES E TAMANHOS NA SHOPEE 🔥</a>
+    <p>Clique abaixo e veja todos os detalhes do produto com desconto.</p>
+    
+    <a class="btn" href="#"
+       onclick="return gtag_report_conversion('https://s.shopee.com.br/6VK5TP1QAF');"
+       rel="nofollow sponsored">
+       VER CORES E TAMANHOS NA SHOPEE 🔥
+    </a>
   </section>
 
-
-
   <footer>
-  <div class="social-links">
-    <a href="https://www.instagram.com/achados.doclick?igsh=MXh2MmE0cG94aGhrdA==" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #E1306C; font-size: 24px;">
-      <i class="fab fa-instagram"></i> Siga-nos no Instagram
-    </a>
-  </div>
+    <div class="social-links">
+      <a href="https://www.instagram.com/achados.doclick" target="_blank">
+        <i class="fab fa-instagram"></i> Siga-nos no Instagram
+      </a>
+    </div>
 
-  <p>
-    © 2026 - <a href="politica.html">Todos os direitos reservados</a>
-  </p>
-  <p class="disclaimer">
-    Este site participa de programas de afiliados. Podemos receber comissões por compras realizadas através dos links.
-  </p>
-</footer>
+    <p>
+      © 2026 - <a href="politica.html">Todos os direitos reservados</a>
+    </p>
+
+    <p class="disclaimer">
+      Este site participa de programas de afiliados. Podemos receber comissões.
+    </p>
+  </footer>
 
 </body>
 </html>
